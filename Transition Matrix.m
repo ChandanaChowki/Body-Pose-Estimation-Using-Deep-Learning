@@ -1,7 +1,7 @@
 % Import the Network
 clc
 close all
-clear all
+%clear all
 
 
 dataDir = fullfile(tempdir, 'OpenPose');
