@@ -1,7 +1,7 @@
 % Import the Network
 clc
 close all
-clear all
+%clear all
 dataDir = fullfile(tempdir, 'OpenPose');
 trainedOpenPoseNet_url = 'https://ssd.mathworks.com/supportfiles/vision/data/human-pose-estimation.zip'
 downloadTrainedOpenPoseNet(trainedOpenPoseNet_url,dataDir);
